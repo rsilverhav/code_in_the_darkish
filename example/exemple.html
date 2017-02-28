@@ -1,18 +1,66 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link type="text/css" href="example_styles.css" rel="stylesheet">
-  </head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link type="text/css" href="example_styles.css" rel="stylesheet">
+</head>
 
-  <body style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;">
-    <!-- HEADER -->
-    <div style="width:100%; height: 60px; background-color: #f0f"></div>
+<body style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;">
+  <!-- HEADER -->
+  <div style="width:100%; height: 60px; background-color: magenta; color: white;">Header</div>
 
-    <!--  VERT CENTERED -->
-    <div style="width: 1140px; margin: 0 auto; min-height: 600px;">
+  <!--  VERT CENTERED -->
+  <div style="width: 1140px; margin: 0 auto; min-height: 600px;">
+    <div class="example">
+      <h2>Display example</h2>
+      <div style="background-color: blue; color: white;">
+        display: block
+      </div>
+      <div style="background-color: cyan;">
+        display: block
+      </div>
+      <br />
+      <div style="display: inline-block; background-color: blue; color: white;">
+        display: inline-block
+      </div>
+      <div style="display: inline-block; background-color: cyan;">
+        display: inline-block
+      </div>
+    </div>
+
+    <div class="example">
       <h2>Padding example</h2>
+      <div style="padding: 0; background-color: red; color: white;">
+        No padding
+      </div>
+      <br />
+      <div style="padding: 30px; background-color: green; color: white;">
+        With padding
+      </div>
+    </div>
+
+    <div class="example">
       <h2>Margin example</h2>
+      <div style="margin: 0; background-color: magenta; color: white; display: inline-block; padding: 30px;">
+        No margin
+      </div>
+      <div style="margin: 0; background-color: cyan; color: white; display: inline-block; padding: 30px;">
+        No margin
+      </div>
+      <br />
+      <br />
+      <div style="margin-right: 50px; background-color: magenta; color: white; display: inline-block; padding: 30px;">
+        With margin
+      </div>
+      <div style="margin: 0; background-color: cyan; color: white; display: inline-block; padding: 30px;">
+        With margin
+      </div>
+    </div>
+
+    <div class="example">
       <h2>Positioning example</h2>
+    </div>
+
+    <div class="example">
       <h2>Three divs in a row</h2>
       <div style="width: 100%">
         <div style="width: 33.33%; float: left; padding: 0; margin: 0; background-color: blue; height: 150px; color: white;">
@@ -25,6 +73,7 @@
           Third
         </div>
       </div>
-    </div>
-  </body>
+      <div>
+      </div>
+</body>
 </html>
