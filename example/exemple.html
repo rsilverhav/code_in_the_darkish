@@ -5,8 +5,6 @@
 </head>
 
 <body style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;">
-  <!-- HEADER -->
-  <div style="width:100%; height: 60px; background-color: magenta; color: white;">Header</div>
 
   <!--  VERT CENTERED -->
   <div style="width: 1140px; margin: 0 auto; min-height: 600px;">
@@ -33,43 +31,50 @@
         No padding
       </div>
       <br />
-      <div style="padding: 30px; background-color: green; color: white;">
+      <div style="padding: 20px; background-color: green; color: white;">
         With padding
       </div>
     </div>
 
     <div class="example">
       <h2>Margin example</h2>
-      <div style="margin: 0; background-color: magenta; color: white; display: inline-block; padding: 30px;">
+      <div style="margin: 0; background-color: magenta; color: white; display: inline-block; padding: 20px;">
         No margin
       </div>
-      <div style="margin: 0; background-color: cyan; color: white; display: inline-block; padding: 30px;">
+      <div style="margin: 0; background-color: cyan; color: white; display: inline-block; padding: 20px;">
         No margin
       </div>
       <br />
       <br />
-      <div style="margin-right: 50px; background-color: magenta; color: white; display: inline-block; padding: 30px;">
+      <div style="margin-right: 50px; background-color: magenta; color: white; display: inline-block; padding: 20px;">
         With margin
       </div>
-      <div style="margin: 0; background-color: cyan; color: white; display: inline-block; padding: 30px;">
+      <div style="margin: 0; background-color: cyan; color: white; display: inline-block; padding: 20px;">
         With margin
       </div>
     </div>
 
     <div class="example">
       <h2>Positioning example</h2>
+      <div style="position: relative; height: 80px; background-color: lime;">
+        Relative parent
+
+        <div style="position: absolute; right: 50px; bottom: 35px; padding: 10px; background-color: black; color: white;">
+          Absolute child
+        </div>
+      </div>
     </div>
 
     <div class="example">
       <h2>Three divs in a row</h2>
       <div style="width: 100%">
-        <div style="width: 33.33%; float: left; padding: 0; margin: 0; background-color: blue; height: 150px; color: white;">
+        <div style="width: 33.33%; float: left; padding: 0; margin: 0; background-color: blue; height: 30px; color: white;">
           First
         </div>
-        <div style="width: 33.33%; float: left; padding: 0; margin: 0; background-color: #4298f4; height: 150px; color: #ffffff;">
+        <div style="width: 33.33%; float: left; padding: 0; margin: 0; background-color: #4298f4; height: 30px; color: #ffffff;">
           Second
         </div>
-        <div style="width: 33.33%; float: left; padding: 0; margin: 0; background-color: cyan; height: 150px;">
+        <div style="width: 33.33%; float: left; padding: 0; margin: 0; background-color: cyan; height: 30px;">
           Third
         </div>
       </div>
